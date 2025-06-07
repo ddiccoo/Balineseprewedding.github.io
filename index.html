@@ -349,7 +349,7 @@
                 </div>
                 <div id="p1">213201003689507</div>
                 <strong>a/n KETUT SUPRIADI</strong><br /><br />
-                <button onclick="copyToClipboard('#p1')" class="button-gift">
+                <button onclick="copyToClipboard()" class="button-gift">
                   <i class="fas fa-copy"></i>&nbsp;&nbsp;Salin Nomor</button
                 ><br /><br />
               </div>
@@ -633,11 +633,25 @@
     });
   });
 
-  function copyToClipboard(element) {
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($(element).text()).select();
+  // function copyToClipboard(element) {
+  //   var $temp = $("<input>");
+  //   $("body").append($temp);
+  //   $temp.val($(element).text()).select();
+  //   document.execCommand("copy");
+  //   $temp.remove();
+  // }
+
+  function copyToClipboard() {
+    var teks = document.getElementById("p1");
+    var textarea = document.createElement("textarea");
+    textarea.value = teks.textContent;
+
+    document.body.appendChild(textarea);
+
+    textarea.select();
+
     document.execCommand("copy");
-    $temp.remove();
+
+    document.body.removeChild(textarea);
   }
 </script>
