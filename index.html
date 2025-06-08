@@ -345,7 +345,7 @@
             <div class="modal-body" align="center">
               <div id="covid2">
                 <div style="margin-bottom: 8px">
-                  <img src="assets/images/bri.png" width="140px;" />
+                  <img src="assets/images/bri.png" width="200px;" />
                 </div>
                 <div id="p1">213201003689507</div>
                 <strong>a/n KETUT SUPRIADI</strong><br /><br />
@@ -642,8 +642,8 @@
   // }
 
   function copyToClipboard() {
-    var teks = document.getElementById("p1");
-    var textarea = document.createElement("textarea");
+    let teks = document.getElementById("p1");
+    let textarea = document.createElement("textarea");
     textarea.value = teks.textContent;
 
     document.body.appendChild(textarea);
