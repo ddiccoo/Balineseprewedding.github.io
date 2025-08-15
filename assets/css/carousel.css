@@ -19,7 +19,7 @@
   transform: translate3d(0, 0, 0);
 }
 .carousel-fade .carousel-control {
-  z-index: 2;
+  z-index: 1;
 }
 
 .carousel,
@@ -28,7 +28,9 @@
   height: 100%;
 }
 .carousel-inner > .item {
-  -webkit-transition: -webkit-transform 1.6s ease-in-out !important;
-  -o-transition: -o-transform 1.6s ease-in-out !important;
-  transition: transform 1.6s ease-in-out !important;
+  transition: transform 1s ease-in-out !important;
+  -webkit-transition: transform 1s ease-in-out !important;
+  -moz-transition: transform 1s ease-in-out !important;
+  -ms-transition: transform 1s ease-in-out !important;
+  -o-transition: transform 1s ease-in-out !important;
 }

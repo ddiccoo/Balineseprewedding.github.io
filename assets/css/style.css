@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css?family=Quicksand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Space+Grotesk&display=swap");
 body {
   margin: 0;
   font-family: "Questrial", sans-serif;
@@ -82,7 +83,8 @@ body {
 }
 
 #modal .popup-content h1 {
-  font-family: "Marcellus", serif;
+  font-family: "Berkshire Swash", "Marcellus", serif;
+  color: gold;
   padding-bottom: 10px;
   font-size: 43px;
   line-height: 30px;
@@ -174,7 +176,7 @@ body {
 }
 
 #header-tittle h1 {
-  font-family: "Marcellus", serif;
+  font-family: "Berkshire Swash", "Marcellus", serif;
   padding-bottom: 10px;
   font-size: 43px;
   line-height: 40px;
@@ -385,7 +387,7 @@ body {
   letter-spacing: 1px;
   padding: 0px 25px;
   margin: 20px;
-  background: url("../../assets/images/bg-acara-edited.jpg") no-repeat;
+  background: url("/assets/images/bg-gmap-edited.jpg") no-repeat;
   background-position: top center;
   border-radius: 10px;
 }
@@ -396,6 +398,7 @@ body {
 }
 
 #acara .btn-map {
+  text-decoration: none;
   font-size: 15px;
   background: #fff url(../../assets/images/bg.png);
   color: #000;
@@ -594,6 +597,8 @@ body {
 
 #footer h2 {
   font-size: 14px;
+  color: #ffc148;
+  font-family: "Berkshire Swash", cursive;
   margin-bottom: 70px;
   letter-spacing: 3px;
 }
@@ -763,7 +768,7 @@ running .labels {
 }
 
 #acara {
-  background: url("../../assets/images/bg-acara-edited.jpg") no-repeat;
+  background: url("../../assets/images/bg-gmap-edited.jpg") no-repeat;
   background-position: center;
   height: auto;
 }

@@ -38,7 +38,7 @@
     <!-- AUDIO -->
     <audio id="myAudio" loop>
       <source
-        src="assets/audio/Bali World Music Gus Teja ROMANCE.mp3"
+        src="assets/audio/Gusteja-MorningHappiness.mp3"
         type="audio/mp3"
       />
     </audio>
@@ -47,7 +47,6 @@
         <img src="assets/images/play.svg" id="playPausebtn" />
       </button>
     </div>
-
     <!-- POPUP -->
     <div id="modal">
       <section class="popup">
@@ -66,7 +65,6 @@
       </section>
     </div>
     <section id="intro"></section>
-
     <!-- HEADER -->
     <div
       id="carousel"
@@ -92,7 +90,6 @@
         </div>
       </div>
     </div>
-
     <!--QUOTE-->
     <div data-aos="fade-in">
       <section id="quote" data-aos="fade-in">
@@ -135,7 +132,6 @@
         </g>
       </svg>
     </div>
-
     <section id="pengantar" class="container text-center">
       <div data-aos="zoom-in">
         <img src="assets/images/swastiastu.png" width="140" />
@@ -167,8 +163,8 @@
             <h2 data-aos="flip-left">Ketut Supriadi</h2>
             <div data-aos="fade-up">
               <p>
-                Putra keempat dari pasangan<br />Bapak Steven dengan Ibu
-                Kartini<br /><br />
+                Putra keempat dari pasangan<br />wayan mangku merta dengan wayan
+                sukri <br /><br />
                 <i class="fa fa-map-marker-alt"></i> Banjar Dharma Yasa, Desa
                 Tukadmungga, Buleleng
               </p>
@@ -183,22 +179,17 @@
             <h2 data-aos="flip-left">Ni Luh Putu Retno Puspa Dewi</h2>
             <div data-aos="fade-up">
               <p>
-                Putri pertama dari pasangan<br />Bapak dengan Ibu<br /><br />
+                Putri pertama dari pasangan<br />wayan sukrama dengan ketut
+                sarti<br /><br />
                 <i class="fa fa-map-marker-alt"></i> Desa Selat, Sukasada,
                 Buleleng
               </p>
             </div>
           </div>
-
-          <!--<div class="col-lg-12" data-aos="fade-up"><br><br>
-         <div class="tittle-section2"></div><div class="tittle-section">MEPANDES</div>
-          <p>Made Manik Dewantara<br>I Wayan Agus Sumardi</p>
-        </div>-->
         </div>
       </div>
     </section>
     <br />
-
     <!-- ACARA -->
     <div class="text-center" data-aos="zoom-in-down">
       <img src="assets/images/tittle-section.png" width="80" height="25px" />
@@ -232,7 +223,6 @@
               >
             </div>
             <br />
-
             <!--COUNTDOWN-->
             <div
               class="countdown show"
@@ -258,9 +248,7 @@
         </div>
       </div>
     </section>
-
     <br />
-
     <!--GALLERY-->
     <div class="tittle-section-icon text-center" data-aos="zoom-in-down">
       <img src="assets/images/tittle-section.png" width="80" height="25px" />
@@ -359,7 +347,6 @@
       </div>
     </section>
     <br />
-
     <!--KONFIRMASI-->
     <div class="text-center">
       <img
@@ -479,14 +466,12 @@
         </div>
       </section>
     </div>
-
     <section id="loadingkonfirmasiform" class="invisible">
       <div data-aos="zoom-in">
         <div align="center">Mohon menunggu kami sedang memproses data anda</div>
       </div>
     </section>
     <br />
-
     <!--KOMENTAR-->
     <div class="text-center">
       <img
@@ -503,7 +488,6 @@
           <div class="col-xs-8 col-sm-6" id="totalDoa-view" data-aos="zoom-in">
             <strong>0 Ucapan</strong>
           </div>
-
           <div class="col-xs-4 col-sm-6" align="right">
             <select
               class="form-control"
@@ -525,7 +509,7 @@
             class="btn invisible"
             name="submit"
           >
-            TAMPILKAN SEMUA (13)
+            TAMPILKAN SEMUA (0)
           </button>
         </div>
       </div>
@@ -539,7 +523,6 @@
       />
     </section>
     <br />
-
     <!--FOOTER-->
     <section id="footer">
       <div class="bg">
@@ -592,66 +575,65 @@
       </div>
     </div>
   </body>
-</html>
-
-<script>
-  var baseurl = "https://www.pawiwahan.id/guskabaliwedding/agus-ayu/";
-</script>
-<script type="text/javascript" src="assets/scripts/konfirmasi.js"></script>
-<script type="text/javascript">
-  AOS.init({
-    duration: 1500,
-    delay: 500,
-  });
-
-  function hidePlay() {
-    var audio = document.getElementById("myAudio");
-    audio.play();
-    document.getElementById("modal").style.top = "-100%";
-    document.getElementById("modal").style.opacity = "0";
-    document.getElementById("playPausebtn").src = "assets/images/pause.svg";
-  }
-
-  function Play() {
-    var myAudio = document.getElementById("myAudio");
-    if (myAudio.paused) {
-      myAudio.play();
-      document.getElementById("playPausebtn").src = "assets/images/pause.svg";
-    } else {
-      myAudio.pause();
-      document.getElementById("playPausebtn").src = "assets/images/play.svg";
-    }
-  }
-
-  $(document).ready(function () {
-    $("#gallery_grid").gallery_grid({
-      no_columns: 4,
-      padding_x: 10,
-      padding_y: 10,
-      margin_bottom: 50,
-      single_column_breakpoint: 700,
+  <script>
+    var baseurl = "";
+  </script>
+  <script type="text/javascript" src="assets/scripts/konfirmasi.js"></script>
+  <script type="text/javascript">
+    AOS.init({
+      duration: 1500,
+      delay: 500,
     });
-  });
 
-  // function copyToClipboard(element) {
-  //   var $temp = $("<input>");
-  //   $("body").append($temp);
-  //   $temp.val($(element).text()).select();
-  //   document.execCommand("copy");
-  //   $temp.remove();
-  // }
+    function hidePlay() {
+      var audio = document.getElementById("myAudio");
+      audio.play();
+      document.getElementById("modal").style.top = "-100%";
+      document.getElementById("modal").style.opacity = "0";
+      document.getElementById("playPausebtn").src = "assets/images/pause.svg";
+    }
 
-  function copyToClipboard() {
-    let teks = document.getElementById("p1");
-    let textarea = document.createElement("textarea");
-    textarea.value = teks.textContent;
+    function Play() {
+      var myAudio = document.getElementById("myAudio");
+      if (myAudio.paused) {
+        myAudio.play();
+        document.getElementById("playPausebtn").src = "assets/images/pause.svg";
+      } else {
+        myAudio.pause();
+        document.getElementById("playPausebtn").src = "assets/images/play.svg";
+      }
+    }
 
-    document.body.appendChild(textarea);
+    $(document).ready(function () {
+      $("#gallery_grid").gallery_grid({
+        no_columns: 4,
+        padding_x: 10,
+        padding_y: 10,
+        margin_bottom: 50,
+        single_column_breakpoint: 700,
+      });
+    });
 
-    textarea.select();
+    // function copyToClipboard(element) {
+    //   var $temp = $("<input>");
+    //   $("body").append($temp);
+    //   $temp.val($(element).text()).select();
+    //   document.execCommand("copy");
+    //   $temp.remove();
+    // }
 
-    document.execCommand("copy");
+    function copyToClipboard() {
+      let teks = document.getElementById("p1");
+      let textarea = document.createElement("textarea");
+      textarea.value = teks.textContent;
 
-    document.body.removeChild(textarea);
-  }
-</script>
+      document.body.appendChild(textarea);
+
+      textarea.select();
+
+      document.execCommand("copy");
+
+      document.body.removeChild(textarea);
+    }
+  </script>
+</html>
